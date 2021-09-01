@@ -33,4 +33,8 @@ public class Block {
     public String[] getTransactions() {
         return transactions;
     }
+
+    public int getBlockHash() {
+        return blockHash;
+    }
 }
